@@ -15,3 +15,6 @@ for f in *.read[12].fastq.gz; do
     new=$(echo "$f" | sed -E 's/^(HBR|UHR)_Rep([0-9]+)_.*\.read([12])\.fastq\.gz$/\1_\2_R\3.fq/')
     gunzip -c "$f" > "$new"
 done
+
+# cleanup
+rm *.fastq.gz HBR_UHR_ERCC_ds_5pc.tar
