@@ -1,0 +1,7 @@
+sample	condition	tissue_type	clinical_context
+UHR_rep1	cancer	mixed_cancer_cell_lines	Universal Human Reference Rep1
+UHR_rep2	cancer	mixed_cancer_cell_lines	Universal Human Reference Rep2
+UHR_rep3	cancer	mixed_cancer_cell_lines	Universal Human Reference Rep3
+HBR_rep1	normal	brain_tissue	Human Brain Reference Rep1
+HBR_rep2	normal	brain_tissue	Human Brain Reference Rep2
+HBR_rep3	normal	brain_tissue	Human Brain Reference Rep3
